@@ -1,0 +1,39 @@
+@font-face {
+
+    font-family: 'ana';
+    src: url('font/bananayeti-extrabold_trial-webfont.woff2') format('woff2'),
+         url('font/bananayeti-extrabold_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+
+body {
+	font-family: 'ana';
+	font-style: normal;
+
+}
+
+div	{
+	display:inline-block;
+	background-color: #B2A945;
+
+	width: 30%
+
+	height:250%;
+	float: left;
+	overflow: scroll;
+
+	padding: 25px;
+	border:5px solid #2ae2ae;
+	margin:10px;
+}
+
+span{
+	display:inline-block;
+	width: 30%;
+	float: right;
+
+}
